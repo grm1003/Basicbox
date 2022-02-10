@@ -1,0 +1,67 @@
+.contador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-image: url(img/aulaq.png);
+    width: 900px;
+    height: 300px;
+    border: 5px solid #ee6e4c;
+    text-align: center;
+    margin:auto;
+}
+
+
+.titulo_countdown{
+    padding-top: 2%;
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
+    font-weight: 500;
+}
+
+.titulo_countdown img{
+ width: 2rem;
+ height: 4rem;
+
+}
+
+
+.countdown{
+    display: flex;
+     justify-content: center;
+      
+
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ /*    margin: 5%; */
+    width:180px;
+    height:180px;
+   
+
+}
+
+
+
+.time h2{
+    padding-top: 15%;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 0.5rem 0; 
+}
+
+
+.time small{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 0.5rem 0; 
+}
+
+
+ 

@@ -1,0 +1,104 @@
+/* ----------------------------------------------------------------cards--------------------------------------- */
+.caixa__cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    width: 80%;
+}
+
+.card{
+    
+    
+    background-color: #e0fbfc;
+    width: 12rem;
+    height: 13rem;
+    color: #000000;
+}
+
+.dicas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card_text{
+    margin:5%;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----------------------------------------------------------dentro do card----------------------------------------------------------- */
+.foguete{
+
+width: 10rem;
+height: 8rem;
+}
+
+.start{
+    justify-content: center;
+    width:100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding:3%;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: blueviolet;
+}
+
+.caixa__botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hint{
+   
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+}
+
+#ba{
+    left: -30rem;
+}
+
+#bb{
+    left: -60rem;
+}
+
+#bc{
+    left: -90rem;
+}
+
+
+
+/* ----------------------------------------------------------animação---------------------------------------------------------- */
+.fly_animation{
+    z-index: 999;
+    animation: fly 12s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fly {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(90rem);
+    }
+
+
+  
+}

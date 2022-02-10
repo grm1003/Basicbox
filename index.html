@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- ------------------------------------------------Importações Css e outros------------------------------------------------ -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Matemática na prática</title>
+</head>
+<body>
+<main>
+<!-- ------------------------------------------------------Cabecalho------------------------------------------------------------ -->
+<div class='cabecalho'>
+  
+        <div class="caixa__logo">
+          <a class="navbar-brand" href="#">
+            <img src="images/Basicbox.png" class="logo">
+          </a>
+        </div>
+
+    
+
+    <div class='texto'>
+
+        <h1 >Matemática na prática</h1>
+        <p class='frase'>Participe do Evento Matemática na Prática e aprenda Matemática básica facilmente, construindo uma base forte a qual é essencial para a consolidação do conhecimento. </p>
+    </div>
+<!-- 
+    --------------------------------------------------------------------Formulários----------------------------------------------------- -->
+    <div class='formulario'>
+        <form action="https://formsubmit.co/chado.ma1003@gmail.com" method="POST">
+            <input type="text" name="name" id='nome' placeholder="Seu Nome" required>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_autoresponse" value="Recebemos seu email, obrigado pelo contato, as aulas da imersão vão ser disponibilizadas no dia 10 de Março, quando forem liberadas você receberá em seu email um link do youtube com acesso as aulas, agradeço demais a oportunidade de mostrar meu amor pela matemática, te vejo depois.">
+            <input type="hidden" name="_next" value="https://grm1003.github.io/Sitemath/sucesso.html">
+            <input type="email" name="email" placeholder="Seu Melhor Email" required>
+            <button id='participe'type="submit">Quero Participar</button>
+        </form> 
+</div>
+<!-- 
+--------------------------------------------------Contador----------------------------------------------------- -->
+<div class='contador'>
+    <div class='titulo_countdown'>
+        <img src="images/nave.png">
+        <h1>Lançamento do Evento</h1>
+    </div>
+
+    <div class='countdown'>
+        <div class='time'>
+         <h2 id="day"></h2>
+         <small>Dias</small>
+        </div>
+
+        <div class='time'>
+        <h2 id="hour"></h2>
+        <small>Horas</small>
+        </div>
+
+        <div class='time'>
+        <h2 id="minute" class='minute'></h2>
+        <small>Minutos</small>
+        </div>
+
+        <div class='time'>
+            <h2 id='second'></h2>
+        <small>Segundos</small>
+        </div> 
+    </div>
+</div>
+<!-- 
+----------------------------------------Dicas------------------------------------------------------ -->
+<div class="dicas">
+<h1>Dicas de Matemática</h1>
+<div class="caixa__cards">
+  
+<div class="caixa__botao">
+<div class="card" >
+    <div class="card-body">
+      <h5 class="card_text">DICA 1</h5>
+      <img class='foguete' src="images/foguete.png">
+      <img id='ba'class='hint' src="images/hint_a.png">
+     
+    </div>
+  </div>
+  <button class="start" onclick="myFunction('ba')">VER DICA</button>
+</div>
+
+<div class="caixa__botao">
+  <div class="card" >
+    
+    <div class="card-body">
+      <h5 class="card_text">DICA 2</h5>
+      <img  class='foguete' src="images/foguete.png">
+      <img id='bb'class='hint' src="images/hint_b.png">
+    </div>
+    <button class="start" onclick="myFunction('bb')">VER DICA</button>
+  </div>
+
+</div>
+
+
+<div class="caixa__botao">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card_text">DICA 3</h5>
+      <img class='foguete' src="images/foguete.png">
+      <img id='bc'class='hint' src="images/hint_c.png">
+    </div>
+    <button class="start" onclick="myFunction('bc')">VER DICA</button>
+  </div>
+</div>
+ 
+</div>
+<h2>Para mais dicas se increva no curso!</h2>
+</div>
+
+
+
+
+
+</main>
+</body>
+<!-- ------------------------------------------------Importações javascript------------------------------------------------ -->
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
