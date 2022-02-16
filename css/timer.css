@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     align-self: center;
-    background-image: url(img/aulaq.png);
-    width: 900px;
-    height: 300px;
+    background-color: #e0fbfc;
+    width: 60rem;
+    height: 20rem;
     border: 5px solid #ee6e4c;
+    border-bottom: 15px solid #ee6e4c;
     text-align: center;
     margin:auto;
 }
@@ -38,9 +39,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
- /*    margin: 5%; */
-    width:180px;
-    height:180px;
+    margin: 5%; 
+    width:12rem;
+    height:12rem;
    
 
 }
@@ -52,7 +53,7 @@
     font-size: 4rem;
     font-weight: bold;
     line-height: 1;
-    margin: 0 0 0.5rem 0; 
+    margin: 0 0 0.3rem 0; 
 }
 
 
@@ -60,7 +61,7 @@
     font-size: 2rem;
     font-weight: bold;
     line-height: 1;
-    margin: 0 0 0.5rem 0; 
+    margin: 0 0 0.3rem 0; 
 }
 
 

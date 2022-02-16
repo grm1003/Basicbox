@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <!-- ------------------------------------------------Importações Css e outros------------------------------------------------ -->
+  <!-- ------------------------------------------------Importações CSS e outros------------------------------------------------ -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,14 +20,19 @@
         </div>
 
     
+<div class="caixa__img">
+<div class="caixa__prof">
+  <img src="images/prof1.png">
+  <img src="images/prof2.png">
+ </div>  
 
+
+<div class="caixa__cab">
     <div class='texto'>
-
         <h1 >Matemática na prática</h1>
         <p class='frase'>Participe do Evento Matemática na Prática e aprenda Matemática básica facilmente, construindo uma base forte a qual é essencial para a consolidação do conhecimento. </p>
     </div>
-<!-- 
-    --------------------------------------------------------------------Formulários----------------------------------------------------- -->
+<!----------------------------------------------------------------------Formulários----------------------------------------------------- -->
     <div class='formulario'>
         <form action="https://formsubmit.co/chado.ma1003@gmail.com" method="POST">
             <input type="text" name="name" id='nome' placeholder="Seu Nome" required>
@@ -37,7 +42,14 @@
             <input type="email" name="email" placeholder="Seu Melhor Email" required>
             <button id='participe'type="submit">Quero Participar</button>
         </form> 
+      </div>
 </div>
+<div  class="caixa__prof">
+  <img src="images/prof3.png">
+  <img src="images/prof4.png">
+ </div>  
+</div>
+
 <!-- 
 --------------------------------------------------Contador----------------------------------------------------- -->
 <div class='contador'>
@@ -74,21 +86,19 @@
 <h1>Dicas de Matemática</h1>
 <div class="caixa__cards">
   
-<div class="caixa__botao">
-<div class="card" >
-    <div class="card-body">
-      <h5 class="card_text">DICA 1</h5>
-      <img class='foguete' src="images/foguete.png">
-      <img id='ba'class='hint' src="images/hint_a.png">
-     
+  <div class="caixa__botao">
+    <div class="card" >
+      <div class="card-body">
+        <h5 class="card_text">DICA 1</h5>
+        <img  class='foguete' src="images/foguete.png">
+        <img id='ba'class='hint' src="images/hint_a.png">
+      </div>
+      <button class="start" onclick="myFunction('ba')">VER DICA</button>
     </div>
   </div>
-  <button class="start" onclick="myFunction('ba')">VER DICA</button>
-</div>
 
 <div class="caixa__botao">
   <div class="card" >
-    
     <div class="card-body">
       <h5 class="card_text">DICA 2</h5>
       <img  class='foguete' src="images/foguete.png">
@@ -96,7 +106,6 @@
     </div>
     <button class="start" onclick="myFunction('bb')">VER DICA</button>
   </div>
-
 </div>
 
 
