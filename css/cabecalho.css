@@ -1,125 +1,43 @@
 /* ----------------------------------------- fundo e logo ----------------------------------------------------------------------------- */
 
-.cabecalho{
-    background-color:#5271ff ; 
-    width: 100%;
-    height: 420px;
-    
+html{
+    font-family: 'Roboto', sans-serif;
+    background-color:#291A6D ; 
 }
-
-.navbar-brand {
-    text-decoration: none;
-    color: black;
-   
-}
-
-
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-/* ------------------------------------------------------------botao------------------------------------------------------------------------- */
-input{
-    padding: 1%;
-    border-radius: 8%;
-    justify-content: center;
-    padding: 5%;
-    font-size: 20px;
-    border: none;
-    background-color: transparent;
-    color: #ffffff;
-    width: 100%;
-    padding: 5px 5px;
-    display: inline-block;
-    border: 0;
-    border-bottom: 1px solid #250041 ;
-    background-color: transparent;
-    outline: none;
-    min-width: 180px;
-    font-size: 1rem;
-    transition: all .3s ease-out;
-    border-radius: 0;
-    
-}
-
-::placeholder {
-    color: #ffffff;
-    font-size: 1.5rem;
-  }
-  
-#participe{
-    min-width: 180px;
-    justify-content: center;
-    width:100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding:3%;
-    font-size: 1.5rem;
-    border-radius: 8px;
-    border: none;
-    background-color: blueviolet;
-}
-
-input:focus::placeholder {
-    color:transparent;
-   
-}
-/*  ------------------------------------------------------------- caixa imagem e fundo---------------------------------------------------------- */
-.caixa__img {
-    display: flex;
-}
-
-.caixa__cab{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
-
- .caixa__img img{
-      margin: 2%; 
-    
-
-} 
-
-#prof5 {
-    width: 165px;
-    height: 206px;
-    margin: 5%;
-}
-
-.caixa__prof{
  
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-    margin: 5%;
+#slider {
+    
+    background: url(img/kg_bg.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
 }
 
-.texto{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
-    color: #ffffff;
-    width: 100%;
-    
-    }
+h4{
+    font-size: 2.5rem;
+    margin-left: 10%;
+    margin-top: 12rem;
+}
 
-.texto h1 {
-        width: 100%;
-        font-size: 3rem;
-        margin-bottom: 2%;
-    
-     }
-    
-     
-.formulario {
-        display: flex;
-        flex-direction: column;
-        /* margin: 10%; */
-        margin-bottom: 5%;
-        margin-top: 5%;
-        width: 100%;
-    }
+nav{
+    margin-left: 15%;
+}
+
+.frase{
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+
+.row{
+    margin-bottom: 20%;
+    font-size: 1.5rem;
+}
+
+.foguete_img{
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 10%;
+    width: 300px ;
+    height: 300px;
+}
+
 

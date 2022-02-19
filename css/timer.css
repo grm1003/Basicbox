@@ -1,4 +1,5 @@
 .contador{
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,8 +7,7 @@
     background-color: #e0fbfc;
     width: 60rem;
     height: 20rem;
-    border: 5px solid #ee6e4c;
-    border-bottom: 15px solid #ee6e4c;
+    border:none;
     text-align: center;
     margin:auto;
 }
