@@ -1,0 +1,74 @@
+
+@media screen and (max-width: 440px) {
+  html{
+    font-size: 5%;
+    }
+    
+    .caixa__cards{
+      display: flex;
+      flex-direction: column;
+      width: 12rem;
+      justify-content: space-around;
+      
+    }
+
+    .card{
+      margin-top: 10%;
+    }
+
+    .time_1 h2{
+      font-size: 2rem;
+    }
+
+    .time_1 small{
+      font-size: 1rem;
+    }
+
+    h4{
+      margin-left: 10%;
+      margin-top: 15%;
+  } 
+ 
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+    html{
+      font-size: 15%;
+      }
+      
+  
+
+
+  
+
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+   
+
+  html{
+    font-size: 60%;
+  }
+
+  #nuvem{
+    display:block;
+  }
+
+  #msng{
+    color: black;
+  }
+
+  #foguete_1{
+    display: none;
+  }
+   
+
+
+  
+  } 
+

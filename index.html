@@ -12,89 +12,62 @@
 <body>
 <main>
 <!-- ------------------------------------------------------Cabecalho------------------------------------------------------------ -->
-<!-- <div class='cabecalho'>
-  
-        <div class="caixa__logo">
-          <a class="navbar-brand" href="#">
-            <img src="images/Basicbox.png" class="logo">
-          </a>
-        </div>
 
-    
-<div class="caixa__img">
-<div class="caixa__prof">
-  <img src="images/prof1.png">
-  <img src="images/prof2.png">
- </div>  
-
-
-<div class="caixa__cab">
-    <div class='texto'>
-        <h1 >Matemática na prática</h1>
-        <p class='frase'>Participe do Evento Matemática na Prática e aprenda Matemática básica facilmente, construindo uma base forte a qual é essencial para a consolidação do conhecimento. </p>
-    </div> -->
-
-
-
-
-    <div class="img-fluid" id="slider">
+<div class="cab" class='container-fluid' class="img-fluid" id="slider" >
+  <img src="images/Nuvem.svg" alt="" id="cloud_1" class="img-fluid position-relative top-0 start-0 ">
+  <img class="img-fluid position-static top-0 end-0" id="foguete_1"src="images/rocket.svg" >
+  <div class="container-fluid fixed-top basicbox_navbar" >
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Basicbox</a> 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Início</a>
-                <a class="nav-link" href="#">Contador</a>
-                <a class="nav-link" href="#">Se inscreva</a>
-                <a class="nav-link" href="#">Dicas</a>
-              </div>
-            </div>
+        <a class="navbar-brand" href="#">Basicbox</a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Contador</a>
+            <a class="nav-link" href="#">Se inscreva</a>
+            <a class="nav-link" href="#">Dicas</a>
           </div>
-        </nav>
         </div>
-      
-      <div class="row">
-          <div class="col-lg-4 col-md-6 align-self-center mb-md-0 mb-4">
-             <h4 class="mb-4 subtitulo">Matemática na prática</h4>
-             <p class='frase'>Participe do Evento Matemática na Prática e aprenda Matemática básica facilmente, construindo uma base forte a qual é essencial para a consolidação do conhecimento. </p>
-          </div>
+      </div>
+    </nav>
+    </div>
   
-          <div class="col-lg-8 col-md-8 align-self-center text-center">
-            <img class="foguete_img" class="rounded float-end" src="images/rocket.png" class="img-fluid" />
-          </div> 
-      </div> 
+  <div id='text_1'class="row position-absolute top-0">
+      <div class="col-8 col-sm-4">
+         <h4 class="mb-4 titulo">MATEMÁTICA NA PRÁTICA</h4>
+         <p class='frase'>Participe do Evento Matemática na Prática e aprenda Matemática básica facilmente, construindo uma base forte a qual é essencial para a consolidação do conhecimento. </p>
+      </div>
   </div>
-
+</div>
 
 <!-- 
 --------------------------------------------------Contador----------------------------------------------------- -->
+<div id='contador'class="ancora"><h1>CONTADOR</h1></div>
 <div class='contador'>
-    <div class='titulo_countdown'>
-        <img src="images/nave.png">
-        <h1>Lançamento do Evento</h1>
+    <div class='titulo_countdown1'>
+        <img src="images/nave.png"> 
+        <h1>Lançamento do evento</h1>
     </div>
 
-    <div class='countdown'>
-        <div class='time'>
+    <div class='countdown_1'>
+        <div class='time_1'>
          <h2 id="day"></h2>
          <small>Dias</small>
         </div>
 
-        <div class='time'>
+        <div class='time_1'>
         <h2 id="hour"></h2>
         <small>Horas</small>
         </div>
 
-        <div class='time'>
+        <div class='time_1'>
         <h2 id="minute" class='minute'></h2>
         <small>Minutos</small>
         </div>
 
-        <div class='time'>
+        <div class='time_1'>
             <h2 id='second'></h2>
         <small>Segundos</small>
         </div> 
@@ -104,8 +77,9 @@
 
   
 <!----------------------------------------------------------------------Formulários----------------------------------------------------- -->
+<div class="inscricao">
+<div class="ancora"><h1>SE INSCREVA AQUI!</h1></div>
 <div class='formulario'>
-  <h1>Se increva aqui!</h1>
   <form action="https://formsubmit.co/chado.ma1003@gmail.com" method="POST">
       <input type="text" name="name" id='nome' placeholder="Seu Nome" required>
       <input type="hidden" name="_captcha" value="false">
@@ -116,11 +90,11 @@
   </form> 
 </div>
 </div>
+</div>
 <!-----------------------------------------Dicas------------------------------------------------------ -->
 <div class="dicas">
-<h1>Dicas de Matemática</h1>
-<div class="caixa__cards">
-  
+<div class="ancora"><h1>DICAS DE MATEMÁTICA</h1></div>
+<div  class="caixa__cards">
   <div class="caixa__botao">
     <div class="card" >
       <div class="card-body">
@@ -154,7 +128,6 @@
     <button class="start" onclick="myFunction('bc')">VER DICA</button>
   </div>
 </div>
- 
 </div>
 <h2>Para mais dicas se increva no curso!</h2>
 </div>

@@ -1,63 +1,67 @@
 .contador{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: center;
     background-color: #e0fbfc;
-    width: 60rem;
-    height: 20rem;
+    width: 80% ;
+    height: 30%  ;
     border:none;
     text-align: center;
-    margin:auto;
+    margin-left:auto;
+    margin-right: auto;
+    border: blueviolet solid 1px;
 }
 
 
-.titulo_countdown{
-    padding-top: 2%;
+.titulo_countdown1{
+    color: black;
+    margin: 2%; 
     display: flex;
-    font-size: 2.5rem;
+    font-size: 2rem;
     align-items: center;
-    font-weight: 500;
+    
+    
 }
 
-.titulo_countdown img{
+.titulo_countdown1 img{
  width: 2rem;
  height: 4rem;
 
 }
 
 
-.countdown{
+.countdown_1{
     display: flex;
      justify-content: center;
       
 
 }
 
-.time {
+.time_1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5%; 
-    width:12rem;
-    height:12rem;
+    margin: 10%; 
+    width: 100%;
+    height: 40%;
    
 
 }
 
 
 
-.time h2{
-    padding-top: 15%;
-    font-size: 4rem;
+.time_1 h2{
+     
+     font-size: 4rem; 
     font-weight: bold;
     line-height: 1;
     margin: 0 0 0.3rem 0; 
 }
 
 
-.time small{
+.time_1 small{
     font-size: 2rem;
     font-weight: bold;
     line-height: 1;
@@ -65,4 +69,6 @@
 }
 
 
- 
+#contador{
+    margin-bottom: 10%;
+}

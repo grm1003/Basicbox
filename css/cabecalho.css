@@ -3,46 +3,69 @@
 html{
     font-family: 'Roboto', sans-serif;
     background-color:#291A6D ; 
-}
- 
- #slider {
-    background: url(img/kg_bg.svg);
-    background-position: cover;
-    background-repeat: no-repeat;
-}
- 
 
-    
+}
+#slider {
+    background: url(img/bg.svg);
+    background-position: cover;
+     
+  }
+/* 
+.nuvem{
+    position: absolute;
+    z-index: 500;
+   width: 100%;
+   
+   top:0;
+} */
+
+#mensagem {
+    z-index: 1500;
+    margin-left: 5%;
+}
 
 /* 
  ------------------------------------------------- texto e nav ----------------------------------------------------------------------- */
-h4{
-    font-size: 2.5rem;
+ h4{
+    font-size: 2rem;
     margin-left: 10%;
-    margin-top: 12rem;
-}
+    margin-top: 30%;
+} 
 
-nav{
-    margin-left: 15%;
-}
 
 .frase{
     margin-left: 10%;
     margin-bottom: 20%;
-}
-
-.row{
-    margin-bottom: 20%;
     font-size: 1.5rem;
 }
 
-/* ------------------------------------------------------------------------ imagens---------------------------------------------- */
-.foguete_img{
-    display: inline-block;
-    margin-top: 6%;
-    margin-left: 10%;
-    width: 300px ;
-    height: 300px;
+
+
+/* ---------------------------------------------------------- images e navbar ------------------------------------------------------------------------------------ */
+.cab{
+    background-image: url(img/bg.svg);
+    background-size: cover;
+}
+
+
+#text_1{
+    z-index: 1050;
+}
+
+#foguete_1{
+    z-index: 1100;
+    margin-top: 3%;
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+#cloud_1{
+    z-index: 1000;
+}
+
+.basicbox_navbar{
+    background-color: #291A6D;
 }
 
 
