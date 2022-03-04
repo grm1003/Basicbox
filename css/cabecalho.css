@@ -66,6 +66,7 @@ html{
 
 .basicbox_navbar{
     background-color: #291A6D;
+    z-index: 2000;
 }
 
 
