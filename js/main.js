@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------------Contador------------------------------------------------------ */
 
-var countDate = new Date('March 10, 2022 00:00:00').getTime();
+var countDate = new Date('June 29, 2022 00:00:00').getTime();
 
 setInterval(function(){
    var now = new Date().getTime();
